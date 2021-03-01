@@ -1,13 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Should render Expenses Summary correctly 1`] = `
-<p>
-  Viewing 0  expenses totalling $0.00
-</p>
+<div>
+  <p>
+    Viewing undefined  expenses totalling $0.00
+  </p>
+</div>
 `;
 
 exports[`Should render Expenses Summary correctly 2 1`] = `
-<p>
-  Viewing 3  expenses totalling $1,141.95
-</p>
+<div>
+  <p>
+    Viewing undefined  expenses totalling $0.00
+  </p>
+</div>
 `;
