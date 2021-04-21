@@ -1,0 +1,13 @@
+.form {
+    display: flex;
+    flex-direction: column;
+
+    > * { // affects direct children. Doesn't consider elements inside child div
+        margin-bottom: $medium-size;
+    }
+}
+
+.form__error {
+    font-style: italic;
+    margin: 0 0 $medium-size 0;
+}
